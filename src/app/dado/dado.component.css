@@ -1,0 +1,23 @@
+
+.button-girar{
+    background-color: rgb(67, 67, 67);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 3em;
+    border: none;
+    margin: 20px;
+
+}
+.button-boquear{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 3em;
+    border: none;
+    margin: 20px;
+}
+
+span{
+    font-size: 20px;
+    color: brown;
+}
+
+

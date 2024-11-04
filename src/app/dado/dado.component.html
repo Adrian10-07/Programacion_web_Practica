@@ -1,0 +1,6 @@
+<div class="dado" [class.marcado]="marcado">
+    <span>{{ valor }}</span>
+  </div>
+  <button class="button-girar" (click)="girarDado()" [disabled]="bloqueado">Girar Dado</button>
+  <button class="button-boquear" (click)="bloquearDado()">{{ bloqueado ? 'Desbloquear' : 'Bloquear' }}</button>
+  
