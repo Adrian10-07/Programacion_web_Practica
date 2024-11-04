@@ -58,8 +58,8 @@ export class AppComponent {
     this.mensaje = cuatroDeUnTipo ? 'cuatro de un tipo' : '';
   }
 
-  yatze(){
-    const conteo: {[key: number]: number}={};
-    this.dados.forEach(dado => {dado.marcado = conteo})
-  }
+  //yatze(){
+    //const conteo: {[key: number]: number}={};
+    //this.dados.forEach(dado => {dado.marcado = conteo})
+  //}
 }
